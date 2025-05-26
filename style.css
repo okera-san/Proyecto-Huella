@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVEGADOR */
+nav {
+    background-color: beige;
+    color: black;
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /*izquierda y derecha*/
+    align-items: center;
+}
+
+.nav_article_1 {
+    display: flex;
+    align-items: center;
+}
+
+.nav_article_2 {
+    align-items: flex-end;
+
+    margin: 0 75px 0 0;
+}
+
+.nav_article_2 ul {
+    display: flex;
+    flex-direction: row; /*fila*/
+
+    list-style: none; /*quitar puntos*/
+}
+
+.nav_article_2 li {
+    padding: 9px;
+}
+
+nav img {
+    width: 75px;
+}
+
+/* MAIN */
+.hero_section {
+    padding: 0px;
+
+    background-color: bisque;
+}
+/* ------- hero section--------*/
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.hero_section div {
+    display: flex;
+}
+.hero_section article{
+        display: flex;
+}
+.article1_hero{
+    display: flex;
+    text-align: center; /* centro de largo y ancho*/
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.article2_hero{
+    justify-content: end; /* alineado al final*/
+}
+.hero_section img{
+    width: 80%;   /*Se utilizo porcentaje para que al moverlo tuviera el mismo tamaño*/
+    height: auto;
+    padding-bottom: 20px;
+}
+/* ------- proposito section--------*/
+.proposito_section{
+    background-color: rgb(255, 223, 181);
+    padding: 15px;
+}
+.proposito_section h2{
+    text-align: center;
+    padding: 15px;
+}
+.proposito_section div{
+    display: flex;
+    align-items: center;
+}
+.proposito_section img{
+    width: 300px;
+}
+.article1_proposito{
+    border: solid 1px;
+    margin: 0 8%;
+}
+.article2_proposito{
+margin-right: 100px;
+}
+/* ------- caracteristicas section--------*/
+.caracteristicas_section{
+    background-color: rgb(255, 213, 159);
+    padding: 15px;
+}
+.caracteristicas_section div{
+    display: flex;
+}
+.caracteristicas_section h2{
+    text-align: center;
+    margin: 10px;
+}
+.caracteristicas_section article{
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+}
+.caracteristicas_section img{
+    width: 100px;
+}
+/* ------- impacto section--------*/
+.section_impacto{
+    background-color: rgb(255, 203, 135);
+    padding-bottom: 30px;
+}
+.section_impacto h2{
+    text-align: center;
+    padding:  15px;
+}
+.section_impacto div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+margin: 30px;
+}
+.article2_imp{
+    width: 30%;
+}
+.section_impacto img{
+    width: 300px;
+}
+.linea {
+    border: none;
+    height: 2px;
+    background-color: gray;
+    margin: 20px 0;
+    width: 80%; /* o 100% */
+}
+/* ------- formulario -------*/
+.section_form{
+    background-color: #ffad43;
+    padding-bottom: 25px;
+}
+.section_form h2{
+    text-align: center;
+    padding: 15px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px; /* tamaño maximo*/
+    margin: auto;
+    gap: 10px; /*separaciones*/
+    background-color: rgb(255, 255, 255);
+    border: solid 1px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.formulario input, textarea{
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+/*FOOTER*/
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #333;
+    border-top: 1px solid #ccc;
+}
