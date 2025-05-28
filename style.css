@@ -1,12 +1,26 @@
 * {
     margin: 0;
     padding: 0;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+h1,h2,h3,nav,button{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
 }
 
+header{
+    position: fixed;
+    top: 0;
+  left: 0;
+  width: 100%;
+}
 /* NAVEGADOR */
 nav {
-    background-color: beige;
-    color: black;
+    background-color: #a6765b;
+    color: rgb(255, 255, 255);
+
 
     padding: 10px;
     display: flex;
@@ -36,6 +50,15 @@ nav {
 .nav_article_2 li {
     padding: 9px;
 }
+.nav_article_2 a{
+     text-decoration: none;
+     color: #ffffff;
+}
+.nav_article_2 a:hover{
+     color: #ffe1bd;
+     text-decoration: underline;
+}
+
 
 nav img {
     width: 75px;
@@ -43,15 +66,20 @@ nav img {
 
 /* MAIN */
 .hero_section {
-    padding: 0px;
+    margin-top: 10px;
+    padding-top: 100px;
 
-    background-color: bisque;
+    background-color: #fdf6ec;
 }
 /* ------- hero section--------*/
 h1 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
+    font-size: xx-large;
+}
+.hero_section h2{
+    font-size: x-large;
 }
 
 .hero_section div {
@@ -75,14 +103,36 @@ h1 {
     height: auto;
     padding-bottom: 20px;
 }
+.div2_hero{
+    justify-content: space-evenly;
+    padding: 0 100px;
+}
+.hero_section button{
+    border: solid 2px;
+    margin: 20px;
+
+    background-color: #f2994a;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 3.5rem; 
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hero_section button:hover{
+    background-color: #D97706;
+}
+
 /* ------- proposito section--------*/
 .proposito_section{
-    background-color: rgb(255, 223, 181);
+    background-color: rgb(255, 255, 255);
     padding: 15px;
+    color: #a6765b;
+    font-size: 19px;
 }
 .proposito_section h2{
     text-align: center;
     padding: 15px;
+    font-size: xx-large;
 }
 .proposito_section div{
     display: flex;
@@ -92,7 +142,6 @@ h1 {
     width: 300px;
 }
 .article1_proposito{
-    border: solid 1px;
     margin: 0 8%;
 }
 .article2_proposito{
@@ -100,7 +149,7 @@ margin-right: 100px;
 }
 /* ------- caracteristicas section--------*/
 .caracteristicas_section{
-    background-color: rgb(255, 213, 159);
+    background-color: #fdf6ec;
     padding: 15px;
 }
 .caracteristicas_section div{
@@ -109,6 +158,7 @@ margin-right: 100px;
 .caracteristicas_section h2{
     text-align: center;
     margin: 10px;
+    font-size: xx-large;
 }
 .caracteristicas_section article{
     margin: 10px;
@@ -120,12 +170,13 @@ margin-right: 100px;
 }
 /* ------- impacto section--------*/
 .section_impacto{
-    background-color: rgb(255, 203, 135);
+    background-color: rgb(255, 255, 255);
     padding-bottom: 30px;
 }
 .section_impacto h2{
     text-align: center;
     padding:  15px;
+    font-size: xxx-large;
 }
 .section_impacto div{
     display: flex;
@@ -148,12 +199,16 @@ margin: 30px;
 }
 /* ------- formulario -------*/
 .section_form{
-    background-color: #ffad43;
+    background-color: #fdf6ec;
+    color: #333;
     padding-bottom: 25px;
 }
 .section_form h2{
     text-align: center;
     padding: 15px;
+    padding-top: 30px;
+    font-size: xx-large;
+
 }
 .formulario {
     display: flex;
@@ -164,19 +219,42 @@ margin: 30px;
     background-color: rgb(255, 255, 255);
     border: solid 1px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 .formulario input, textarea{
     padding: 10px;
     border: solid 1px;
     border-radius: 5px;
 }
+.formulario label{
+    display: block;
+}
+.formulario button{
+    margin-top: 20px;
+    width: 100%;
+   background-color: #F59E0B;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease; background-color: ;
+}
+.formulario button:hover{
+    background-color: #D97706;
+}
 /*FOOTER*/
 footer {
-    background-color: #f2f2f2;
+    background-color: #a6765b;
     text-align: center;
     padding: 20px;
     font-size: 14px;
-    color: #333;
+    color: #ffffff;
     border-top: 1px solid #ccc;
+}
+/*-------scroll suave------*/
+html {
+  scroll-behavior: smooth;
 }
