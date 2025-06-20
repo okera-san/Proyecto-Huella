@@ -1,21 +1,27 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     line-height: 1.6;
 }
-h1,h2,h3,nav,button{
+
+h1,
+h2,
+h3,
+nav,
+button {
     font-family: Poppins, sans-serif;
     font-weight: 600;
 }
 
-header{
+header {
     position: fixed;
     top: 0;
-  left: 0;
-  width: 100%;
+    left: 0;
+    width: 100%;
 }
+
 /* NAVEGADOR */
 nav {
     background-color: #a6765b;
@@ -42,21 +48,25 @@ nav {
 
 .nav_article_2 ul {
     display: flex;
-    flex-direction: row; /*fila*/
+    flex-direction: row;
+    /*fila*/
 
-    list-style: none; /*quitar puntos*/
+    list-style: none;
+    /*quitar puntos*/
 }
 
 .nav_article_2 li {
     padding: 9px;
 }
-.nav_article_2 a{
-     text-decoration: none;
-     color: #ffffff;
+
+.nav_article_2 a {
+    text-decoration: none;
+    color: #ffffff;
 }
-.nav_article_2 a:hover{
-     color: #ffe1bd;
-     text-decoration: underline;
+
+.nav_article_2 a:hover {
+    color: #ffe1bd;
+    text-decoration: underline;
 }
 
 
@@ -71,6 +81,7 @@ nav img {
 
     background-color: #fdf6ec;
 }
+
 /* ------- hero section--------*/
 h1 {
     text-align: center;
@@ -78,173 +89,223 @@ h1 {
     padding-bottom: 10px;
     font-size: xx-large;
 }
-.hero_section h2{
+
+.hero_section q{
     font-size: x-large;
+    text-decoration-style: justify;
 }
 
 .hero_section div {
     display: flex;
+    justify-content: space-evenly;
 }
-.hero_section article{
-        display: flex;
-}
-.article1_hero{
+
+.hero_section article {
     display: flex;
-    text-align: center; /* centro de largo y ancho*/
-    align-items: center;
+}
+
+.article1_hero {
+    display: flex;
+    text-align: center;
+    /* centro de largo y ancho*/
+     align-items: center; 
+    justify-content: space-around; 
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.article2_hero{
-    justify-content: end; /* alineado al final*/
+
+.article2_hero {
+    justify-content: end;
+    /* alineado al final*/
 }
-.hero_section img{
-    width: 80%;   /*Se utilizo porcentaje para que al moverlo tuviera el mismo tamaño*/
-    height: auto;
+
+.img1{
+    width: auto;
+    /*Se utilizo porcentaje para que al moverlo tuviera el mismo tamaño*/
+    height: 300px;
     padding-bottom: 20px;
 }
-.div2_hero{
+/* .huellas{
+    height: 250px;
+    width: auto;
+    padding-top: 150px;
+    margin: 0 100px;
+} */
+
+.div2_hero {
     justify-content: space-evenly;
     padding: 0 100px;
 }
-.hero_section button{
+
+.hero_section button {
     border: solid 2px;
     margin: 20px;
 
     background-color: #f2994a;
-  color: #ffffff;
-  border: none;
-  padding: 0.75rem 3.5rem; 
-  border-radius: 5px;
-  cursor: pointer;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.hero_section button:hover{
+
+.hero_section button:hover {
     background-color: #D97706;
 }
 
 /* ------- proposito section--------*/
-.proposito_section{
+.proposito_section {
     background-color: rgb(255, 255, 255);
     padding: 15px;
     color: #a6765b;
     font-size: 19px;
 }
-.proposito_section h2{
+
+.proposito_section h2 {
     text-align: center;
     padding: 15px;
     font-size: xx-large;
 }
-.proposito_section div{
+
+.proposito_section div {
     display: flex;
     align-items: center;
 }
-.proposito_section img{
+
+.proposito_section img {
     width: 300px;
 }
-.article1_proposito{
+
+.article1_proposito {
     margin: 0 8%;
 }
-.article2_proposito{
-margin-right: 100px;
+
+.article2_proposito {
+    margin-right: 100px;
 }
+
 /* ------- caracteristicas section--------*/
-.caracteristicas_section{
+.caracteristicas_section {
     background-color: #fdf6ec;
     padding: 15px;
 }
-.caracteristicas_section div{
+
+.caracteristicas_section div {
     display: flex;
 }
-.caracteristicas_section h2{
+
+.caracteristicas_section h2 {
     text-align: center;
     margin: 10px;
     font-size: xx-large;
 }
-.caracteristicas_section article{
+
+.caracteristicas_section article {
     margin: 10px;
     text-align: center;
     padding: 15px;
 }
-.caracteristicas_section img{
-    width: 100px;
+
+.caracteristicas_section img {
+    width: 70px;
+    height: auto;
 }
+
 /* ------- impacto section--------*/
-.section_impacto{
+.section_impacto {
     background-color: rgb(255, 255, 255);
     padding-bottom: 30px;
 }
-.section_impacto h2{
+
+.section_impacto h2 {
     text-align: center;
-    padding:  15px;
+    padding: 15px;
     font-size: xxx-large;
 }
-.section_impacto div{
+
+.section_impacto div {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-margin: 30px;
+    margin: 30px;
 }
-.article2_imp{
+
+.article2_imp {
     width: 30%;
 }
-.section_impacto img{
+
+.section_impacto img {
     width: 300px;
 }
+
 .linea {
     border: none;
     height: 2px;
     background-color: gray;
     margin: 20px 0;
-    width: 80%; /* o 100% */
+    width: 80%;
+    /* o 100% */
 }
+
 /* ------- formulario -------*/
-.section_form{
+.section_form {
     background-color: #fdf6ec;
     color: #333;
     padding-bottom: 25px;
 }
-.section_form h2{
+
+.section_form h2 {
     text-align: center;
     padding: 15px;
     padding-top: 30px;
     font-size: xx-large;
 
 }
+
 .formulario {
     display: flex;
     flex-direction: column;
-    max-width: 500px; /* tamaño maximo*/
+    max-width: 500px;
+    /* tamaño maximo*/
     margin: auto;
-    gap: 10px; /*separaciones*/
+    gap: 10px;
+    /*separaciones*/
     background-color: rgb(255, 255, 255);
     border: solid 1px;
     padding: 15px;
     border-radius: 16px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
-.formulario input, textarea{
+
+.formulario input,
+textarea {
     padding: 10px;
     border: solid 1px;
     border-radius: 5px;
 }
-.formulario label{
+
+.formulario label {
     display: block;
 }
-.formulario button{
+
+.formulario button {
     margin-top: 20px;
     width: 100%;
-   background-color: #F59E0B;
-      color: white;
-      border: none;
-      padding: 12px;
-      font-size: 1rem;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: background-color 0.3s ease; background-color: ;
+    background-color: #F59E0B;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: ;
 }
-.formulario button:hover{
+
+.formulario button:hover {
     background-color: #D97706;
 }
+
 /*FOOTER*/
 footer {
     background-color: #a6765b;
@@ -254,7 +315,12 @@ footer {
     color: #ffffff;
     border-top: 1px solid #ccc;
 }
+footer img{
+    width: 100px;
+    height: auto;
+}
+
 /*-------scroll suave------*/
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
