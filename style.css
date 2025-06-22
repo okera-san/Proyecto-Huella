@@ -25,7 +25,8 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 10; /* hace que este delante de todo y que no tape la her section; 10 porqque sirve de guia en el header fijo*/
+    z-index: 10;
+    /* hace que este delante de todo y que no tape la her section; 10 porqque sirve de guia en el header fijo*/
 }
 
 /* NAVEGADOR */
@@ -318,7 +319,8 @@ h1 {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-.formulario input, textarea {
+.formulario input,
+textarea {
     padding: 10px;
     border: solid 1px;
     border-radius: 5px;
@@ -358,14 +360,17 @@ footer {
     justify-items: center;
 
 }
-.section2_footer{
+
+.section2_footer {
     display: flex;
 }
-.p_footer{
+
+.p_footer {
     padding-top: 12px;
     padding-left: 10px;
     color: white;
 }
+
 footer img {
     width: 50px;
     height: auto;
@@ -374,188 +379,214 @@ footer img {
 
 
 .whatsapp-buton {
-  position: fixed;
+    position: fixed;
 
-  bottom: 20px;
-  right: 20px;
-  /*POSICION*/
+    bottom: 20px;
+    right: 20px;
+    /*POSICION*/
 
-  width: 50px;
-  height: 45px;
-  padding-bottom: 6px;
+    width: 50px;
+    height: 45px;
+    padding-bottom: 6px;
 
-  background-color: #25D366;
+    background-color: #25D366;
 
-  border-radius: 50%;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .whatsapp-buton img {
-  width: auto;
-  height: 28px;
+    width: auto;
+    height: 28px;
 }
 
 /* ------- responsive 768 -------*/
 @media (max-width: 768px) {
-    nav{
+    nav {
         flex-direction: column;
         text-align: center;
         padding: 5px 10px;
     }
-    .nav_article_2{
+
+    .nav_article_2 {
         margin-left: 4rem;
         max-width: 90%;
         padding: 10px 0;
     }
-    .nav_article_2 li{
+
+    .nav_article_2 li {
         padding: 3px 5px;
         font-size: 12px;
         margin-left: 0px;
     }
-    header{
+
+    header {
         height: auto;
     }
+
     nav img {
         width: 50px;
         margin-bottom: 5px;
     }
-    .hero_section{
+
+    .hero_section {
         background-position: center;
     }
-    .hero_section div, .div1_hero, .div2_hero {
+
+    .hero_section div,
+    .div1_hero,
+    .div2_hero {
         flex-direction: column;
         padding: 0 20px;
         text-align: center;
     }
-    .proposito_section div{
+
+    .proposito_section div {
         flex-direction: column;
         text-align: center;
     }
+
     .proposito_section img {
         width: 90%;
         margin: 10px 0px 10px 60px;
     }
-    .caracteristicas_section_principal{
+
+    .caracteristicas_section_principal {
         flex-direction: column;
         align-items: center;
     }
-    .section_impacto div{
+
+    .section_impacto div {
         flex-direction: column;
         text-align: center;
     }
-    .section_impacto img{
+
+    .section_impacto img {
         width: 90%;
     }
-    .botones_carrusel button{
+
+    .botones_carrusel button {
         margin: 5px;
     }
-    .article2_imp{
+
+    .article2_imp {
         width: 90%;
     }
-    .linea{
+
+    .linea {
         padding-left: 70px;
     }
-    .section_form{
+
+    .section_form {
         padding: 20px 20px;
     }
-    footer{
+
+    footer {
         flex-direction: column;
         text-align: center;
     }
-    .section2_footer{
+
+    .section2_footer {
         flex-direction: column;
         align-items: center;
     }
-    .section2_footer img{
+
+    .section2_footer img {
         width: 30px;
     }
-    .p_footer{
+
+    .p_footer {
         padding-left: 0px;
     }
-    .whatsapp-buton{
+
+    .whatsapp-buton {
         width: 45px;
         height: 38px;
         right: 15px;
         bottom: 15px;
     }
-    .whatsapp-buton img{
+
+    .whatsapp-buton img {
         height: 24px;
     }
 }
+
 @media (min-width: 769px) and (max-width: 1024px) {
 
-  nav {
-    padding: 8px 16px;
-  }
+    nav {
+        padding: 8px 16px;
+    }
 
-  .nav_article_2 {
-    margin: 0 20px 0 0;
-  }
+    .nav_article_2 {
+        margin: 0 20px 0 0;
+    }
 
-  .nav_article_2 li {
-    padding: 6px;
-    font-size: 15px;
-  }
+    .nav_article_2 li {
+        padding: 6px;
+        font-size: 15px;
+    }
 
-  nav img {
-    width: 60px;
-  }
+    nav img {
+        width: 60px;
+    }
 
-  .hero_section {
-    padding-top: 160px; /* Ajustamos por header */
-    padding-bottom: 60px;
-    background-position: center;
-    background-size: cover;
-  }
+    .hero_section {
+        padding-top: 160px;
+        /* Ajustamos por header */
+        padding-bottom: 60px;
+        background-position: center;
+        background-size: cover;
+    }
 
-  .div2_hero {
-    padding: 0 80px;
-  }
+    .div2_hero {
+        padding: 0 80px;
+    }
 
-  .proposito_section div {
-    flex-direction: column;
-    text-align: center;
-  }
+    .proposito_section div {
+        flex-direction: column;
+        text-align: center;
+    }
 
-  .proposito_section img {
-    width: 50%;
-    margin-bottom: 20px;
-  }
+    .proposito_section img {
+        width: 50%;
+        margin-bottom: 20px;
+    }
 
-  .caracteristicas_section_principal {
-    flex-direction: column;
-    align-items: center;
-  }
+    .caracteristicas_section_principal {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .section_impacto div {
-    flex-direction: column;
-    text-align: center;
-  }
+    .section_impacto div {
+        flex-direction: column;
+        text-align: center;
+    }
 
-  .section_impacto img {
-    width: 90%;
-    max-width: 300px;
-    margin-bottom: 20px;
-  }
- .linea{
+    .section_impacto img {
+        width: 90%;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .linea {
         padding-left: 150px;
     }
 
-  .article2_imp {
-    width: 90%;
-  }
+    .article2_imp {
+        width: 90%;
+    }
 
-  footer {
-    flex-direction: column;
-    text-align: center;
-    gap: 10px;
-  }
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
 
-  .section2_footer {
-    flex-direction: column;
-    align-items: center;
-  }
+    .section2_footer {
+        flex-direction: column;
+        align-items: center;
+    }
 }
