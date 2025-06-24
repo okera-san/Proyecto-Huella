@@ -33,7 +33,7 @@ header {
 nav {
     background-color: #a6765b;
     color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +46,7 @@ nav {
 
 .nav_article_2 {
     align-items: flex-end;
-    margin: 0 75px 0 0;
+    margin: 0 4.5rem 0 0;
 }
 
 .nav_article_2 ul {
@@ -57,7 +57,7 @@ nav {
 }
 
 .nav_article_2 li {
-    padding: 9px;
+    padding: 0.6rem;
 }
 
 .nav_article_2 a {
@@ -72,25 +72,25 @@ nav {
 
 
 nav img {
-    width: 75px;
+    width: 4.5rem;
 }
 
 /* MAIN */
 .hero_section {
-    margin-top: 10px;
-    padding-top: 150px;
+    margin-top: 0.6rem;
+    padding-top: 9.3rem;
     /* background-color: #fdf6ec; */
     background-image: url(imagenes/hero.png);
     background-size: cover;
     background-position: center;
-    padding-bottom: 100px;
+    padding-bottom: 6.2rem;
 }
 
 /* ------- hero section--------*/
 h1 {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 1.3rem;
+    padding-bottom: 0.6rem;
     font-size: xx-large;
 }
 
@@ -117,7 +117,7 @@ h1 {
 
 .div2_hero {
     justify-content: space-between;
-    padding: 0 200px;
+    padding: 0 12.5rem;
     margin-top: 10px;
 }
 
@@ -139,14 +139,14 @@ h1 {
 /* ------- proposito section--------*/
 .proposito_section {
     background-color: rgb(255, 255, 255);
-    padding: 15px;
+    padding: 1rem;
     color: #a6765b;
     font-size: 19px;
 }
 
 .proposito_section h2 {
     text-align: center;
-    padding: 15px;
+    padding: 1rem;
     font-size: xx-large;
 }
 
@@ -156,7 +156,7 @@ h1 {
 }
 
 .proposito_section img {
-    width: 300px;
+    width: 18.7rem;
 }
 
 .article1_proposito {
@@ -164,13 +164,13 @@ h1 {
 }
 
 .article2_proposito {
-    margin-right: 100px;
+    margin-right: 6.2rem;
 }
 
 /* ------- caracteristicas section--------*/
 .caracteristicas_section_principal {
     background-color: #fdf6ec;
-    padding: 15px;
+    padding: 1rem;
     display: flex;
     justify-content: space-evenly;
 
@@ -178,9 +178,9 @@ h1 {
 
 .caracteristicas_section {
     background-color: #fdf6ec;
-    padding: 15px;
-    border-radius: 10px;
-    margin: 40px 0;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    margin: 2.5rem 0;
     box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.7);
 }
 
@@ -203,7 +203,7 @@ h1 {
 }
 
 .caracteristicas_section img {
-    width: 70px;
+    width: 4.3rem;
     height: auto;
 }
 
@@ -219,7 +219,7 @@ h1 {
 
 .section_impacto h2 {
     text-align: center;
-    padding: 15px;
+    padding: 1rem;
     font-size: xxx-large;
 }
 
@@ -235,14 +235,14 @@ h1 {
 }
 
 .section_impacto img {
-    width: 400px;
+    width: 25rem;
 }
 
 .linea {
     border: none;
     height: 2px;
     background-color: gray;
-    margin: 20px 0;
+    margin: 1.3rem 0;
     width: 80%;
 }
 
@@ -250,7 +250,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 1rem
 }
 
 #tarjetas {
@@ -279,7 +279,7 @@ h1 {
     padding: 8px 20px;
     margin: 0 5px;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 500 ;
     border: solid 1px #aaa;
     border-radius: 5px;
     background-color: #f0f0f0;
@@ -295,13 +295,13 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     color: #333;
-    padding-bottom: 25px;
+    padding-bottom: 1.3rem;
 }
 
 .section_form h2 {
     text-align: center;
     padding: 15px;
-    padding-top: 30px;
+    padding-top: 1.8rem;
     font-size: xx-large;
 
 }
@@ -309,7 +309,7 @@ h1 {
 .formulario {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 31.2rem;
     margin: auto;
     gap: 10px;
     background-color: rgb(255, 255, 255);
@@ -408,31 +408,27 @@ footer img {
     nav {
         flex-direction: column;
         text-align: center;
-        padding: 5px 10px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
     }
-
-    .nav_article_2 {
-        margin-left: 4rem;
-        max-width: 90%;
-        padding: 10px 0;
-    }
-
-    .nav_article_2 li {
-        padding: 3px 5px;
-        font-size: 12px;
-        margin-left: 0px;
-    }
-
-    header {
-        height: auto;
-    }
+     .nav_article_2{
+        margin: 5px;
+     }
+     .nav_article_2 li{
+        font-size: 3vw;
+     }
 
     nav img {
         width: 50px;
-        margin-bottom: 5px;
+        height: auto;
     }
 
     .hero_section {
+        background-position: center;
+        padding: 0px 10px;
+        padding-top: 8rem;
+        padding-bottom: 1rem;
         background-position: center;
     }
 
@@ -452,6 +448,7 @@ footer img {
     .proposito_section img {
         width: 90%;
         margin: 10px 0px 10px 60px;
+        padding: 10px;
     }
 
     .caracteristicas_section_principal {
@@ -487,6 +484,7 @@ footer img {
     footer {
         flex-direction: column;
         text-align: center;
+        margin: 0px;
     }
 
     .section2_footer {
@@ -517,7 +515,7 @@ footer img {
 @media (min-width: 769px) and (max-width: 1024px) {
 
     nav {
-        padding: 8px 16px;
+        padding: 15px;
     }
 
     .nav_article_2 {
@@ -535,7 +533,6 @@ footer img {
 
     .hero_section {
         padding-top: 160px;
-        /* Ajustamos por header */
         padding-bottom: 60px;
         background-position: center;
         background-size: cover;
@@ -548,13 +545,18 @@ footer img {
     .proposito_section div {
         flex-direction: column;
         text-align: center;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
     }
 
     .proposito_section img {
         width: 50%;
         margin-bottom: 20px;
     }
-
+    .article1_proposito, .article2_proposito{
+        margin: 10px 0px;
+    }
     .caracteristicas_section_principal {
         flex-direction: column;
         align-items: center;
