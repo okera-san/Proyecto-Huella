@@ -59,6 +59,8 @@ Esto se ubico en un archivo aparte llamado **“script.js”**. Es 100% puro y n
 ## 🔄📊Funcionamiento del Formulario
 Se utilizo la herramienta Formspree, porque es fácil de integrar, no se necesita JavaScript, y es gratis hasta cierto punto ya que tiene un limite de 50 envíos de formulario al mes.
 Para la implementación de este solo se creo una cuenta en su pagina oficial, luego se crea el formulario y se agrega al HTML.
+## Utilización de GitHub Pages
+Github Pages es una herramienta que permite subir una pagina estática a la web, esto se puede activar en la configuración de la pagina. Únicamente la pagina debe de terminar en “.github.io” y funciona.
 ## ❌🛠Desafíos encontrados.
 Se encontraron diferentes desafíos y en su mayoría eran dudas de si esta bien o no, por ejemplo:
 - Utilizar o no el “aside”, investigando en foros se dio la respuesta es que depende de de como se estructure su pagina.
